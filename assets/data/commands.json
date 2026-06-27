@@ -1,0 +1,274 @@
+[
+  {
+    "command": "!war",
+    "category": "Guerra",
+    "title": "Estado de guerra",
+    "description": "Muestra el estado actual de la guerra, rival, estrellas, destrucción y ataques.",
+    "example": "!war",
+    "access": "Grupo"
+  },
+  {
+    "command": "!attacks",
+    "category": "Guerra",
+    "title": "Ataques pendientes",
+    "description": "Lista ataques usados o pendientes durante la guerra actual.",
+    "example": "!attacks",
+    "access": "Grupo"
+  },
+  {
+    "command": "!top",
+    "category": "Guerra",
+    "title": "Top ataques",
+    "description": "Presenta los mejores ataques registrados durante la guerra.",
+    "example": "!top",
+    "access": "Grupo"
+  },
+  {
+    "command": "!failed",
+    "category": "Guerra",
+    "title": "Ataques bajos",
+    "description": "Muestra ataques bajos o fallidos. Puede usarse con filtros de estrellas.",
+    "example": "!failed 0 / !failed 1 / !failed 2",
+    "access": "Grupo"
+  },
+  {
+    "command": "!cleanup",
+    "category": "Guerra",
+    "title": "Limpieza de guerra",
+    "description": "Ayuda a identificar pendientes y datos útiles para cerrar mejor la guerra.",
+    "example": "!cleanup",
+    "access": "Grupo"
+  },
+  {
+    "command": "!analysis",
+    "category": "Guerra",
+    "title": "Análisis de guerra",
+    "description": "Entrega análisis avanzado de guerra para revisar el rendimiento del clan.",
+    "example": "!analysis",
+    "access": "Admin"
+  },
+  {
+    "command": "!forecast",
+    "category": "Guerra",
+    "title": "Predicción de guerra",
+    "description": "Genera una predicción o pronóstico de guerra usando los datos disponibles.",
+    "example": "!forecast",
+    "access": "Admin"
+  },
+  {
+    "command": "!clan",
+    "category": "Clan",
+    "title": "Información del clan",
+    "description": "Muestra información general del clan vinculado al grupo.",
+    "example": "!clan",
+    "access": "Grupo"
+  },
+  {
+    "command": "!capital",
+    "category": "Clan",
+    "title": "Capital del Clan",
+    "description": "Consulta información relacionada con la Capital del Clan.",
+    "example": "!capital",
+    "access": "Grupo"
+  },
+  {
+    "command": "!player #TAG",
+    "category": "Clan",
+    "title": "Perfil de jugador",
+    "description": "Consulta información y estadísticas de un jugador usando su tag.",
+    "example": "!player #ABC123",
+    "access": "Grupo"
+  },
+  {
+    "command": "!month",
+    "category": "Reportes",
+    "title": "Reporte mensual",
+    "description": "Muestra el reporte mensual actual del clan o de un jugador si se agrega un tag.",
+    "example": "!month",
+    "access": "Grupo"
+  },
+  {
+    "command": "!previousmonth",
+    "category": "Reportes",
+    "title": "Reporte mes anterior",
+    "description": "Muestra el reporte del mes anterior del clan o de un jugador.",
+    "example": "!previousmonth",
+    "access": "Grupo"
+  },
+  {
+    "command": "!attendance",
+    "category": "Reportes",
+    "title": "Asistencia en guerra",
+    "description": "Resume participación, asistencia y actividad de los jugadores en guerra.",
+    "example": "!attendance",
+    "access": "Admin"
+  },
+  {
+    "command": "!cwltop",
+    "category": "CWL",
+    "title": "Top CWL",
+    "description": "Muestra el ranking de rendimiento de jugadores durante CWL.",
+    "example": "!cwltop",
+    "access": "Admin"
+  },
+  {
+    "command": "!cwlsummary",
+    "category": "CWL",
+    "title": "Resumen CWL",
+    "description": "Muestra el resumen general de la Liga de Clanes.",
+    "example": "!cwlsummary",
+    "access": "Grupo"
+  },
+  {
+    "command": "!rival",
+    "category": "Rival CWL",
+    "title": "Scout del rival",
+    "description": "Consulta información del rival actual en CWL.",
+    "example": "!rival",
+    "access": "Admin"
+  },
+  {
+    "command": "!rival full",
+    "category": "Rival CWL",
+    "title": "Scout completo",
+    "description": "Muestra una vista más completa del rival CWL.",
+    "example": "!rival full",
+    "access": "Admin"
+  },
+  {
+    "command": "!rival resumen",
+    "category": "Rival CWL",
+    "title": "Resumen del rival",
+    "description": "Muestra un resumen rápido del rival CWL.",
+    "example": "!rival resumen",
+    "access": "Admin"
+  },
+  {
+    "command": "!rival miembros",
+    "category": "Rival CWL",
+    "title": "Miembros del rival",
+    "description": "Muestra información o listado relacionado con los miembros del rival.",
+    "example": "!rival miembros",
+    "access": "Admin"
+  },
+  {
+    "command": "!rival help",
+    "category": "Rival CWL",
+    "title": "Ayuda Rival CWL",
+    "description": "Muestra la ayuda disponible para comandos de rival CWL.",
+    "example": "!rival help",
+    "access": "Admin"
+  },
+  {
+    "command": "!attacknotice",
+    "category": "Avisos",
+    "title": "Estado de avisos de ataques",
+    "description": "Consulta el estado de los avisos automáticos de ataques.",
+    "example": "!attacknotice",
+    "access": "Grupo"
+  },
+  {
+    "command": "!attacknotice on/off",
+    "category": "Avisos",
+    "title": "Activar avisos de ataques",
+    "description": "Activa o desactiva los avisos automáticos de ataques.",
+    "example": "!attacknotice on",
+    "access": "Admin"
+  },
+  {
+    "command": "!attacknotice allies/both",
+    "category": "Avisos",
+    "title": "Alcance de avisos",
+    "description": "Define si los avisos se enfocan en aliados o en ambos lados.",
+    "example": "!attacknotice allies",
+    "access": "Admin"
+  },
+  {
+    "command": "!attackmode instant/summary",
+    "category": "Avisos",
+    "title": "Modo de aviso",
+    "description": "Cambia el modo de aviso entre instantáneo o resumen.",
+    "example": "!attackmode summary",
+    "access": "Admin"
+  },
+  {
+    "command": "!attacktime=8",
+    "category": "Avisos",
+    "title": "Tiempo de avisos",
+    "description": "Define la frecuencia o tiempo usado para el resumen de ataques.",
+    "example": "!attacktime=8",
+    "access": "Admin"
+  },
+  {
+    "command": "!membernotice",
+    "category": "Avisos",
+    "title": "Estado de avisos de miembros",
+    "description": "Consulta el estado de los avisos de entrada y salida de miembros.",
+    "example": "!membernotice",
+    "access": "Grupo"
+  },
+  {
+    "command": "!membernotice on/off",
+    "category": "Avisos",
+    "title": "Activar avisos de miembros",
+    "description": "Activa o desactiva avisos automáticos de miembros.",
+    "example": "!membernotice on",
+    "access": "Admin"
+  },
+  {
+    "command": "!setclan #TAG",
+    "category": "Configuración",
+    "title": "Vincular clan",
+    "description": "Vincula el clan al grupo de WhatsApp usando el tag del clan.",
+    "example": "!setclan #ABC123",
+    "access": "Admin"
+  },
+  {
+    "command": "!removeclan",
+    "category": "Configuración",
+    "title": "Quitar clan",
+    "description": "Quita el clan vinculado del grupo de WhatsApp.",
+    "example": "!removeclan",
+    "access": "Admin"
+  },
+  {
+    "command": "!lang es/en",
+    "category": "Configuración",
+    "title": "Cambiar idioma",
+    "description": "Cambia el idioma del asistente entre español e inglés.",
+    "example": "!lang es",
+    "access": "Admin"
+  },
+  {
+    "command": "!status",
+    "category": "Bot",
+    "title": "Estado del bot",
+    "description": "Muestra el estado del bot, conexión y datos básicos del servicio.",
+    "example": "!status",
+    "access": "Grupo"
+  },
+  {
+    "command": "!ping",
+    "category": "Bot",
+    "title": "Prueba rápida",
+    "description": "Sirve para comprobar que el bot responde correctamente.",
+    "example": "!ping",
+    "access": "Grupo"
+  },
+  {
+    "command": "!help",
+    "category": "Ayuda",
+    "title": "Menú principal",
+    "description": "Muestra el menú principal de comandos disponibles.",
+    "example": "!help",
+    "access": "Grupo"
+  },
+  {
+    "command": "!help more",
+    "category": "Ayuda",
+    "title": "Comandos avanzados",
+    "description": "Muestra comandos avanzados y opciones adicionales.",
+    "example": "!help more",
+    "access": "Grupo"
+  }
+]

@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Servicios | Asistente LOKITS</title>
+
+  <meta 
+    name="description" 
+    content="Conoce los servicios principales de Asistente LOKITS para clanes: guerras, CWL, avisos automáticos, rival scout, capital del clan y reportes."
+  />
+
+  <link rel="icon" href="assets/images/logo/logo-base.png" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <nav class="navbar container">
+      <a href="index.html" class="brand">
+        <img 
+          src="assets/images/logo/logo-base.png" 
+          alt="Logo Asistente LOKITS" 
+          class="brand-logo"
+        />
+        <span>Asistente LOKITS</span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">
+        ☰
+      </button>
+
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="servicios.html" class="active-link">Servicios</a></li>
+        <li><a href="planes.html">Planes</a></li>
+        <li><a href="comandos.html">Comandos</a></li>
+        <li><a href="galeria.html">Galería</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="contacto.html" class="nav-cta">WhatsApp</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO SERVICIOS -->
+    <section class="section page-hero services-page-hero">
+      <div class="container services-hero-grid">
+        <div>
+          <p class="section-label">Servicios</p>
+
+          <h1>Funciones creadas para que tu clan esté mejor organizado.</h1>
+
+          <p class="hero-text">
+            Asistente LOKITS concentra las herramientas principales que un clan
+            necesita en WhatsApp: control de guerras, CWL, avisos automáticos,
+            reportes, análisis del rival y consultas rápidas.
+          </p>
+
+          <div class="hero-actions service-hero-actions">
+            <a href="planes.html" class="btn btn-primary">
+              Ver planes
+            </a>
+
+            <a href="contacto.html" class="btn btn-whatsapp service-whatsapp-btn">
+              Solicitar activación
+            </a>
+          </div>
+        </div>
+
+        <div class="services-hero-card">
+          <img 
+            src="assets/images/logo/logo-base.png" 
+            alt="Logo Asistente LOKITS"
+          />
+
+          <div>
+            <span>Servicio activo</span>
+            <strong>WhatsApp + Clan + Comandos</strong>
+            <p>
+              Pensado para líderes, colíderes y miembros que quieren consultar
+              información importante sin salir del grupo.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TARJETAS DE SERVICIOS -->
+    <section class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-label">Funciones principales</p>
+
+          <h2>Todo lo importante del clan en un solo asistente.</h2>
+
+          <p class="section-description">
+            Estas son las áreas principales que cubre Asistente LOKITS para
+            facilitar la administración y seguimiento del clan.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <article class="service-card-lokits featured-service">
+            <div class="service-icon">⚔️</div>
+            <h3>Gestión de guerras</h3>
+            <p>
+              Consulta el estado actual de la guerra, ataques usados, ataques
+              pendientes, estrellas, destrucción y resumen del enfrentamiento.
+            </p>
+            <span>Comandos relacionados: !war, !attacks, !failed</span>
+          </article>
+
+          <article class="service-card-lokits">
+            <div class="service-icon">🏆</div>
+            <h3>CWL / Liga de Clanes</h3>
+            <p>
+              Da seguimiento al rendimiento en CWL con rankings, resumen de liga,
+              posición, estrellas y desempeño por jugador.
+            </p>
+            <span>Comandos relacionados: !cwltop, !cwlsummary</span>
+          </article>
+
+          <article class="service-card-lokits">
+            <div class="service-icon">🔔</div>
+            <h3>Avisos automáticos</h3>
+            <p>
+              Ayuda al clan con recordatorios y alertas para que los jugadores
+              no olviden ataques importantes durante la guerra.
+            </p>
+            <span>Funciones: avisos instantáneos o resumen</span>
+          </article>
+
+          <article class="service-card-lokits">
+            <div class="service-icon">🔍</div>
+            <h3>Rival Scout</h3>
+            <p>
+              Revisa información del rival para tener una idea más clara antes
+              de atacar o planificar una guerra de liga.
+            </p>
+            <span>Comandos relacionados: !rival, !rival full</span>
+          </article>
+
+          <article class="service-card-lokits">
+            <div class="service-icon">🏰</div>
+            <h3>Capital del Clan</h3>
+            <p>
+              Permite consultar información relacionada con la Capital del Clan,
+              apoyando el seguimiento de actividad y participación.
+            </p>
+            <span>Comando relacionado: !capital</span>
+          </article>
+
+          <article class="service-card-lokits">
+            <div class="service-icon">📊</div>
+            <h3>Reportes y estadísticas</h3>
+            <p>
+              Genera reportes mensuales, asistencia, participación y datos útiles
+              para evaluar el rendimiento del clan.
+            </p>
+            <span>Comandos: !month, !attendance</span>
+          </article>
+
+          <article class="service-card-lokits">
+            <div class="service-icon">⚙️</div>
+            <h3>Configuración del clan</h3>
+            <p>
+              Vincula el clan al grupo, cambia idioma y permite controlar ajustes
+              principales de forma organizada.
+            </p>
+            <span>Comandos: !setclan, !lang, !status</span>
+          </article>
+
+          <article class="service-card-lokits">
+            <div class="service-icon">🛡️</div>
+            <h3>Privacidad y seguridad</h3>
+            <p>
+              La web y el bot se mantienen separados. No se publican archivos del
+              bot, credenciales, sesiones ni configuraciones privadas.
+            </p>
+            <span>Enfoque: uso responsable y datos protegidos</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- BLOQUE DE VALOR -->
+    <section class="section section-dark">
+      <div class="container services-value-grid">
+        <div>
+          <p class="section-label">Por qué usarlo</p>
+
+          <h2>Menos desorden en el grupo, más control para el clan.</h2>
+
+          <p class="section-description">
+            En muchos clanes la información importante se pierde entre mensajes.
+            Asistente LOKITS ayuda a consultar datos clave con comandos simples,
+            sin depender de revisar todo manualmente.
+          </p>
+        </div>
+
+        <div class="service-check-list">
+          <div class="service-check-item">
+            <span>✓</span>
+            <p>Consulta rápida desde WhatsApp.</p>
+          </div>
+
+          <div class="service-check-item">
+            <span>✓</span>
+            <p>Ideal para líderes y colíderes.</p>
+          </div>
+
+          <div class="service-check-item">
+            <span>✓</span>
+            <p>Información organizada por comandos.</p>
+          </div>
+
+          <div class="service-check-item">
+            <span>✓</span>
+            <p>Ayuda a mejorar la participación en guerra.</p>
+          </div>
+
+          <div class="service-check-item">
+            <span>✓</span>
+            <p>Preparado para crecer con nuevas funciones.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FLUJO DE SERVICIO -->
+    <section class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-label">Flujo del servicio</p>
+
+          <h2>Así se trabaja la activación.</h2>
+
+          <p class="section-description">
+            La activación se maneja de forma guiada para evitar errores y dejar
+            el asistente funcionando correctamente en el grupo del clan.
+          </p>
+        </div>
+
+        <div class="service-flow-grid">
+          <article class="service-flow-card">
+            <span>01</span>
+            <h3>Contacto inicial</h3>
+            <p>
+              El cliente escribe por WhatsApp para consultar el servicio y elegir
+              el plan que necesita.
+            </p>
+          </article>
+
+          <article class="service-flow-card">
+            <span>02</span>
+            <h3>Revisión del clan</h3>
+            <p>
+              Se confirma el clan, grupo de WhatsApp, funciones deseadas y datos
+              necesarios para la activación.
+            </p>
+          </article>
+
+          <article class="service-flow-card">
+            <span>03</span>
+            <h3>Configuración</h3>
+            <p>
+              Se vincula el clan con el grupo y se revisa que los comandos
+              principales respondan correctamente.
+            </p>
+          </article>
+
+          <article class="service-flow-card">
+            <span>04</span>
+            <h3>Soporte</h3>
+            <p>
+              Se da seguimiento al funcionamiento del asistente y a cualquier
+              ajuste necesario del servicio.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA SERVICIOS -->
+    <section class="section services-cta-section">
+      <div class="container services-cta-box">
+        <div>
+          <p class="section-label">Activa el servicio</p>
+
+          <h2>Haz que tu clan tenga una herramienta más organizada en WhatsApp.</h2>
+
+          <p>
+            Revisa los planes disponibles o escribe directamente para consultar
+            la activación de Asistente LOKITS.
+          </p>
+        </div>
+
+        <div class="services-cta-actions">
+          <a href="planes.html" class="btn btn-primary">
+            Ver planes
+          </a>
+
+          <a href="contacto.html" class="btn btn-whatsapp services-cta-whatsapp">
+            Contactar por WhatsApp
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <img 
+        src="assets/images/logo/logo-base.png" 
+        alt="Logo Asistente LOKITS" 
+        class="footer-logo"
+      />
+
+      <p>
+        Asistente LOKITS es una herramienta independiente y no es un producto oficial de Supercell.
+        La información mostrada proviene de la API oficial de Supercell y corresponde únicamente a datos públicos.
+      </p>
+
+      <p class="footer-copy">
+        © 2026 Asistente LOKITS. Todos los derechos reservados.
+      </p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
